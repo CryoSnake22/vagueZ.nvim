@@ -107,9 +107,7 @@ local DEFAULT_SETTINGS = {
     ---@type string
     builtin = "#c4e2dd", -- from #b4d4cf
     ---@type string
-    func = "#fc5d7c",
-
-    -- func = "#d29494", -- from #c48282
+    func = "#d29494", -- from #c48282
     ---@type string
     string = "#f8c79b", -- from #e8b589
     ---@type string
