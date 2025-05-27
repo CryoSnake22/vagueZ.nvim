@@ -1,5 +1,5 @@
-local curr_internal_conf = require("vague.config.internal").current
-local groups = require("vague.groups")
+local curr_internal_conf = require("vagueZ.config.internal").current
+local groups = require("vagueZ.groups")
 local M = {}
 
 ---@param highlights table <string, table>

@@ -1,4 +1,4 @@
-local curr_internal_conf = require("vague.config.internal").current
+local curr_internal_conf = require("vagueZ.config.internal").current
 local M = {}
 
 M.set_highlights = function()
