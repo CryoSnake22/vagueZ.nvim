@@ -95,49 +95,49 @@ local DEFAULT_SETTINGS = {
   ---@class VagueColorscheme.InternalConfig.colors
   colors = {
     ---@type string
-    bg = "#141415",
+    bg = "#141415", -- unchanged
     ---@type string
-    fg = "#cdcdcd",
+    fg = "#e1e1e1", -- from #cdcdcd
     ---@type string
-    floatBorder = "#878787",
+    floatBorder = "#9c9c9c", -- from #878787
     ---@type string
-    line = "#252530",
+    line = "#252530", -- unchanged
     ---@type string
-    comment = "#606079",
+    comment = "#6d6d8a", -- from #606079
     ---@type string
-    builtin = "#b4d4cf",
+    builtin = "#c4e2dd", -- from #b4d4cf
     ---@type string
-    func = "#c48282",
+    func = "#d29494", -- from #c48282
     ---@type string
-    string = "#e8b589",
+    string = "#f8c79b", -- from #e8b589
     ---@type string
-    number = "#e0a363",
+    number = "#f0b575", -- from #e0a363
     ---@type string
-    property = "#c3c3d5",
+    property = "#d4d4e7", -- from #c3c3d5
     ---@type string
-    constant = "#aeaed1",
+    constant = "#bfbfe2", -- from #aeaed1
     ---@type string
-    parameter = "#bb9dbd",
+    parameter = "#cbaed0", -- from #bb9dbd
     ---@type string
-    visual = "#333738",
+    visual = "#333738", -- unchanged
     ---@type string
-    error = "#d8647e",
+    error = "#e7758e", -- from #d8647e
     ---@type string
-    warning = "#f3be7c",
+    warning = "#fbd892", -- from #f3be7c
     ---@type string
-    hint = "#7e98e8",
+    hint = "#90aaff", -- from #7e98e8
     ---@type string
-    operator = "#90a0b5",
+    operator = "#a3b3c9", -- from #90a0b5
     ---@type string
-    keyword = "#6e94b2",
+    keyword = "#7fa5c5", -- from #6e94b2
     ---@type string
-    type = "#9bb4bc",
+    type = "#adc5ce", -- from #9bb4bc
     ---@type string
-    search = "#405065",
+    search = "#405065", -- unchanged
     ---@type string
-    plus = "#7fa563",
+    plus = "#92b976", -- from #7fa563
     ---@type string
-    delta = "#f3be7c",
+    delta = "#fbd892", -- from #f3be7c
   },
 }
 
