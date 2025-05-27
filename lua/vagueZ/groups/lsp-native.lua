@@ -1,5 +1,5 @@
-local syntax_group = require("vague.groups.syntax")
-local ts_group = require("vague.groups.treesitter")
+local syntax_group = require("vagueZ.groups.syntax")
+local ts_group = require("vagueZ.groups.treesitter")
 local M = {}
 
 ---@param conf VagueColorscheme.InternalConfig

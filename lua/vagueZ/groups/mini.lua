@@ -3,7 +3,7 @@ local M = {}
 ---@param conf VagueColorscheme.InternalConfig
 ---@return table
 M.get_colors = function(conf)
-  local utilities = require("vague.utilities")
+  local utilities = require("vagueZ.utilities")
   local c = conf.colors
 
   -- stylua: ignore

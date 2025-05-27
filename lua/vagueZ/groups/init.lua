@@ -1,0 +1,20 @@
+local curr_internal_conf = require("vagueZ.config.internal").current
+return {
+  common = require("vagueZ.groups.common").get_colors(curr_internal_conf),
+  cmp = require("vagueZ.groups.cmp").get_colors(curr_internal_conf),
+  blink = require("vagueZ.groups.blink").get_colors(curr_internal_conf),
+  lsp_native = require("vagueZ.groups.lsp-native").get_colors(curr_internal_conf),
+  lsp_plugin = require("vagueZ.groups.lsp-plugin").get_colors(curr_internal_conf),
+  gitsigns = require("vagueZ.groups.gitsigns").get_colors(curr_internal_conf),
+  neotest = require("vagueZ.groups.neotest").get_colors(curr_internal_conf),
+  mini = require("vagueZ.groups.mini").get_colors(curr_internal_conf),
+  neotree = require("vagueZ.groups.neotree").get_colors(curr_internal_conf),
+  syntax = require("vagueZ.groups.syntax").get_colors(curr_internal_conf),
+  telescope = require("vagueZ.groups.telescope").get_colors(curr_internal_conf),
+  treesitter = require("vagueZ.groups.treesitter").get_colors(curr_internal_conf),
+  dashboard = require("vagueZ.groups.dashboard").get_colors(curr_internal_conf),
+  snacks_picker = require("vagueZ.groups.snacks-picker").get_colors(curr_internal_conf),
+  snacks_input = require("vagueZ.groups.snacks-input").get_colors(curr_internal_conf),
+  snacks_indent = require("vagueZ.groups.snacks-indent").get_colors(curr_internal_conf),
+  rainbow_delimiters = require("vagueZ.groups.rainbow-delimiters").get_colors(curr_internal_conf),
+}

@@ -1,4 +1,4 @@
-local syntax_group = require("vague.groups.syntax")
+local syntax_group = require("vagueZ.groups.syntax")
 local M = {}
 
 ---comment

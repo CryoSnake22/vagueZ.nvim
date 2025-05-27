@@ -1,4 +1,4 @@
-local internal_conf = require("vague.config.internal")
+local internal_conf = require("vagueZ.config.internal")
 local M = {}
 
 ---@param user_opts? VagueColorscheme.Config
@@ -20,10 +20,10 @@ end
 M._colorscheme = function()
   vim.cmd("highlight clear")
   if vim.fn.has("syntax_on") then vim.cmd("syntax reset") end
-  vim.g.colors_name = "vague"
+  vim.g.colors_name = "vagueZ"
 
-  require("vague.highlights").set_highlights()
-  require("vague.terminal").set_highlights()
+  require("vagueZ.highlights").set_highlights()
+  require("vagueZ.terminal").set_highlights()
 end
 
 return M

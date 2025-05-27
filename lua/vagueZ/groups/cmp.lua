@@ -1,4 +1,4 @@
-local common_group = require("vague.groups.common")
+local common_group = require("vagueZ.groups.common")
 local M = {}
 
 ---@param conf VagueColorscheme.InternalConfig

@@ -1,5 +1,5 @@
-local telescope_group = require("vague.groups.telescope")
-local neotree_group = require("vague.groups.neotree")
+local telescope_group = require("vagueZ.groups.telescope")
+local neotree_group = require("vagueZ.groups.neotree")
 local M = {}
 
 ---@param conf VagueColorscheme.InternalConfig

@@ -1,4 +1,4 @@
-local cmp_group = require("vague.groups.cmp")
+local cmp_group = require("vagueZ.groups.cmp")
 local M = {}
 
 ---@param conf VagueColorscheme.InternalConfig
